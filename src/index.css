@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #000;
+}
+.books__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    justify-content: center;
+    gap: 1.05rem;
+    width: 1480px auto ;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.books-by-status__container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
